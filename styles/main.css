@@ -1,0 +1,115 @@
+/*
+ 1: #011638
+ 2: #2E294E
+ 3: #9055A2
+ 4: #D499B9
+
+ Letters: #00dffc
+ */
+
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00dffc;
+    text-decoration-skip: none;
+}
+
+body {
+    background-image: linear-gradient(0deg, #011638 10%, #2E294E 70%);
+}
+
+#content {
+    padding: 20px;
+    margin: 10px;
+}
+
+.section {
+    padding: 20px;
+}
+
+/* menu style */
+
+header {
+    background-image: linear-gradient(315deg, #2E294E 50%, #011638 80%);
+    border: 2px solid #00dffc;
+    border-radius: 6px;
+    border-spacing: inherit;
+    opacity: 70%;
+}
+
+#menu {
+    align-content: center;
+    margin-bottom: auto;
+}
+
+#menu-bar {
+    filter: blur(6px);
+}
+
+ul {
+    filter: blur(0) !important;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px;
+    display: inline;
+    opacity: 100% !important;
+    filter: blur(0) !important;
+}
+
+/* presentation style*/
+
+#about {
+    display: inline;
+}
+
+#personal-photo {
+    display: inline;
+    float: right;
+    margin: 5px;
+    border: 4px solid #00dffc;
+    border-radius: 4px;
+}
+
+/* skill style */
+
+.skill {
+    border: 1px solid #00dffc;
+    border-radius: 4px;
+}
+
+/* link style */
+
+#links {
+    text-align: center;
+}
+
+#network-list {
+    list-style-type: none;
+    margin: 5px;
+}
+
+#network-list li {
+    display: inline;
+    margin: 5px;
+}
+
+/* contact style */
+
+#contact {
+    padding: 5px;
+}
+
+#contact-form {
+    display: inline;
+    padding: 5px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
