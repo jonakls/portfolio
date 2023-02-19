@@ -12,8 +12,11 @@
     padding: 5px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #00dffc;
-    text-decoration-skip: none;
+}
+
+:root {
+    --text-primary-color: #00dffc;
+    --purple-color: #2E294E;
 }
 
 body {
@@ -23,6 +26,7 @@ body {
 #content {
     padding: 20px;
     margin: 10px;
+    color: var(--text-primary-color);
 }
 
 .section {
@@ -42,10 +46,29 @@ header {
 #menu {
     align-content: center;
     margin-bottom: auto;
+    text-align: center;
+
 }
 
 #menu-bar {
-    filter: blur(6px);
+    filter: blur(41px);
+}
+
+#menu-bar li {
+    display: inline;
+    margin: 5px;
+    text-decoration-style: solid;
+}
+
+#menu-bar li a {
+    color: var(--text-primary-color);
+    text-decoration: none;
+}
+
+#menu-bar li a:hover {
+    background-color: #00dffc;
+    border-radius: 4px;
+    color: #011638;
 }
 
 ul {
@@ -59,6 +82,22 @@ nav li {
     display: inline;
     opacity: 100% !important;
     filter: blur(0) !important;
+}
+
+/* center sections */
+table.center-prop {
+    display: grid;
+    place-content: center;
+}
+
+#projects, #skills {
+    color: var(--text-primary-color);
+    text-align: center;
+}
+
+/* title style */
+h1 {
+    text-align: center;
 }
 
 /* presentation style*/
@@ -98,6 +137,16 @@ nav li {
     margin: 5px;
 }
 
+#network-list li a {
+    color: var(--text-primary-color);
+    text-decoration: none;
+}
+
+#network-list li a:hover {
+    background-color: #2E294E;
+    border-radius: 4px;
+}
+
 /* contact style */
 
 #contact {
@@ -112,4 +161,5 @@ nav li {
 
 footer {
     text-align: center;
+    color: var(--text-primary-color);
 }
