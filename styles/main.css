@@ -100,10 +100,17 @@ h1 {
     text-align: center;
 }
 
-/* presentation style*/
+/* about me style */
 
 #about {
     display: inline;
+    padding: 5px;
+    color: var(--text-primary-color);
+    width: 40%;
+}
+
+#about table td {
+    width: 50%;
 }
 
 #personal-photo {
@@ -119,6 +126,11 @@ h1 {
 .skill {
     border: 1px solid #00dffc;
     border-radius: 4px;
+}
+
+.skill:hover {
+    background-color: #011638;
+    color: #00dffc;
 }
 
 /* link style */
