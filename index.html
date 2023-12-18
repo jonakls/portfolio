@@ -1,146 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Jonathan Narvaez | Jonakls | Portfolio</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
-    <body>
-        <header>
-            <nav id="menu">
-                <ul id="menu-bar">
-                    <li><a href="#about">Home</a></li>
-                    <li><a href="#projects">About me</a></li>
-                    <li><a href="#skills">My Skills</a></li>
-                    <li><a href="#links">My Social Networks</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <article id="content">
-            <div id="about" class="section">
-                <table class="center-prop">
-                    <tr>
-                        <td>
-                            <h1>Jonathan Narvaez</h1>
-                            <h2>Developer</h2>
-                            <p>
-                                Hi, I'm Jonathan Narvaez (Jonakls), I'm backend Developer, I like to learn new things, and
-                                I'm always looking for new challenges.
-                                I'm studying Software Engineering in the University Compensar Foundation, in Colombia.
-                            </p>
-                        </td>
-                        <td>
-                            <img id="personal-photo" src="/assets/personal_photo.jpg" width="320" height="440">
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="projects" class="section">
-                <h1>My Projects</h1>
-                <table class="center-prop">
-                    <tr>
-                        <td>
-                            <h3>Title project</h3>
-                            <div class="project">
-                                <h2>Project 1</h2>
-                                <p>Project 1 description</p>
-                            </div>
-                        </td>
-                        <td>
-                            <h3>Title project</h3>
-                            <div class="project">
-                                <h2>Project 2</h2>
-                                <p>Project 2 description</p>
-                            </div>
-                        </td>
-                        <td>
-                            <h3>Title project</h3>
-                            <div class="project">
-                                <h2>Project 3</h2>
-                                <p>Project 3 description</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="skills" class="section">
-                <h1>My Skills</h1>
-                <table class="center-prop">
-                    <tr>
-                        <td>
-                            <div class="skill">
-                                <h2>Java - 3 years</h2>
-                                <p>Java description</p>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="skill">
-                                <h2>Python - 1 year</h2>
-                                <p>Python description</p>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="skill">
-                                <h2>CSharp (C#) - 1 year</h2>
-                                <p>CSharp description</p>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="skill">
-                                <h2>JavaScript - 1 year</h2>
-                                <p>JavaScript description</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="links" class="section">
-                <h1>My Social Networks</h1>
-                <ul id="network-list">
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Github</a></li>
-                </ul>
-            </div>
-            <div id="contact" class="section">
-                <h1>Contact</h1>
-                <form action="" id="contact-form">
-                    <table class="center-prop">
-                        <tr>
-                            <td>
-                                <label>
-                                    <input type="text" placeholder="Name">
-                                </label>
-                            </td>
-                            <td>
-                                <label>
-                                    <input type="email" placeholder="Email">
-                                </label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <label>
-                                    <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                </label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <label>
-                                    <input type="submit" value="Send">
-                                </label>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-        </article>
-        <footer>
-            <p>Jonathan Narvaez | Portfolio | © Copyright 2022</p>
-        </footer>
-        
-    </body>
+<head>
+    <title>Jonathan Narvaez | Jonakls | Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="javascript/main.js"></script>
+</head>
+<body>
+<script>main()</script>
+<header>
+    <nav id="menu">
+        <ul id="menu-bar" class="menu-element">
+            <li><a href="#about">Home</a></li>
+            <li><a href="#projects">About me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#links">My Social Networks</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<article id="content">
+    <div id="about" class="section">
+        <table class="center-prop">
+            <tr class="about-container">
+                <td class="center-prop">
+                    <div>
+                        <h1>Jonathan Narvaez</h1>
+                        <h2>Developer</h2>
+                        <p>
+                            Hi, I'm Jonathan Narvaez (Jonakls), I'm backend Developer, I like to learn new things, and
+                            I'm always looking for new challenges.
+                            I'm studying Software Engineering in the University Compensar Foundation, in Colombia.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <img id="personal-photo" src="/assets/personal_photo.jpg" width="320" height="440">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="projects" class="section">
+        <h1>My Projects</h1>
+        <table class="center-prop">
+            <tr>
+                <td>
+                    <div class="project">
+                        <h3>Title project</h3>
+                        <h2>Project 1</h2>
+                        <p>Project 1 description</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="project">
+                        <h3>Title project</h3>
+                        <h2>Project 2</h2>
+                        <p>Project 2 description</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="project">
+                        <h3>Title project</h3>
+                        <h2>Project 3</h2>
+                        <p>Project 3 description</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="skills" class="section">
+        <h1>My Skills</h1>
+        <table class="center-prop">
+            <tr>
+                <td>
+                    <div class="skill">
+                        <h2>Java - 3 years</h2>
+                        <p>Java description</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="skill">
+                        <h2>Python - 1 year</h2>
+                        <p>Python description</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="skill">
+                        <h2>CSharp (C#) - 1 year</h2>
+                        <p>CSharp description</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="skill">
+                        <h2>JavaScript - 1 year</h2>
+                        <p>JavaScript description</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="links" class="section">
+        <h1>My Social Networks</h1>
+        <ul id="network-list" class="menu-element">
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Github</a></li>
+        </ul>
+    </div>
+    <div id="contact" class="section">
+        <h1>Contact</h1>
+        <form action="" id="contact-form">
+            <table class="center-prop">
+                <tr>
+                    <td>
+                        <label>
+                            <input type="text" placeholder="Name">
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="email" placeholder="Email">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>
+                            <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="center-prop">
+                            <input type="submit" value="Send">
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</article>
+<footer>
+    <p>Jonathan Narvaez | Portfolio | © Copyright 2022</p>
+</footer>
+
+</body>
 </html>

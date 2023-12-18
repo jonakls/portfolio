@@ -84,6 +84,16 @@ nav li {
     filter: blur(0) !important;
 }
 
+.menu-element {
+    transition: transform 0.3s ease;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* center sections */
 table.center-prop {
     display: grid;
@@ -126,6 +136,11 @@ h1 {
 .skill {
     border: 1px solid #00dffc;
     border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.project {
+    transition: transform 0.3s ease;
 }
 
 .skill:hover {
@@ -174,4 +189,8 @@ h1 {
 footer {
     text-align: center;
     color: var(--text-primary-color);
+}
+
+.zoomed {
+    transform: scale(1.2); /* Escala del zoom (1.2 es un 20% más grande) */
 }
